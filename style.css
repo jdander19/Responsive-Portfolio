@@ -217,15 +217,26 @@ input[type=submit] {
 }
 
 @media (max-width: 980px) {
-  
+  #main-container {
+    width: 60%;
+    float: left;
+  }
 }
 
 @media (max-width: 768px) {
-
+  .work {
+    width: 40%;
+  }
 }
 
 @media (max-width: 640px) { 
-  header {
-    display: static;
+  #masthead {
+    position: static;
+  }
+  .auth-image {
+    width: 100%;
+  }
+  .work {
+    width: 100%;
   }
 }
